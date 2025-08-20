@@ -21,7 +21,7 @@ public class PeliculaController {
         Peliculas.add(new Pelicula(7,"Forrest Gump",1994,"Robert Zemeckis","Drama","Un hombre con bajo coeficiente intelectual vive momentos clave de la historia estadounidense."));
         Peliculas.add(new Pelicula(8,"Interstellar",2014,"Christopher Nolan","Ciencia ficción","Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad."));
         Peliculas.add(new Pelicula(9,"La La Land",2016,"Damien Chazelle","Musical","Una aspirante a actriz y un músico luchan por sus sueños en Los Ángeles."));
-        Peliculas.add(new Pelicula(23 ,"Titanic",1997,"James Cameron","Romance","Una historia de amor prohibido a bordo del famoso barco condenado."));
+        Peliculas.add(new Pelicula(10 ,"Titanic",1997,"James Cameron","Romance","Una historia de amor prohibido a bordo del famoso barco condenado."));
     }
 
 

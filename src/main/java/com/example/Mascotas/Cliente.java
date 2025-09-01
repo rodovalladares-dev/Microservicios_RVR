@@ -6,7 +6,7 @@ public class Cliente {
     private String email;
 
 
-    // Getters y setters
+    // gets
     public int getId() 
     { 
         return id; 

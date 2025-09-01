@@ -6,7 +6,7 @@ public class Producto {
     private int precio;
     private int cantidad;
 
-    // Getters y setters
+    // gets
     public int getId() 
     { 
         return id; 

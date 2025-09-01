@@ -10,7 +10,7 @@ public class Venta {
     private int total;
 
 
-    // Getters y setters
+    // gets
     public int getId_venta() 
     { 
         return id_venta;

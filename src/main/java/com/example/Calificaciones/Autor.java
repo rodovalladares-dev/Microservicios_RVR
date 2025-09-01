@@ -5,7 +5,7 @@ public class Autor {
     private String nombre;
 
 
-    // Getters y setters
+    // gets
     public int getId() 
     { 
         return id; 

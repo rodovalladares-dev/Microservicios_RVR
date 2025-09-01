@@ -15,7 +15,7 @@ public class Comentario {
     private int calificacion;
 
 
-    // Getters y setters
+    // gets
     public int getId() 
     { 
         return id_comentario; 

@@ -17,7 +17,7 @@ public class Publicacion {
 
 
 
-    // Getters y setters
+    // gets
     public int getIdPublicacion() 
     { 
         return idpublicacion;

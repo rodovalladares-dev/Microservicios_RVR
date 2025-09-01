@@ -43,7 +43,6 @@ public class CalificacionesController {
     }
     @GetMapping("/publicaciones/autor")
     public List<Autor> getAutor() {
-        // Evita duplicados usando un Set temporal
         Map<Integer, Autor> AutoresUnicos = new HashMap<>();
         for (Publicacion v : publicaciones) {
             Autor c = v.getAutor();

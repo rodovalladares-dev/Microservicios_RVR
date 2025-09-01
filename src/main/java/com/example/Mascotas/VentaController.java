@@ -13,12 +13,13 @@ import java.util.Map;
 
 @RestController
 public class VentaController {
+    //Lista en memoria que almacena las publicaciones cargadas desde el archivo.
     private List<Venta> ventas = new ArrayList<>();
 
     public VentaController() {
         try {
             ObjectMapper mapper = new ObjectMapper();
-            InputStream inputStream = getClass().getResourceAsStream("/ventas.json");
+            InputStream inputStream = getClass().getResourceAsStream("/Data/ventas.json");
             ventas = mapper.readValue(inputStream, new TypeReference<List<Venta>>() {});
             System.err.println(ventas);
         } catch (Exception e) {
@@ -42,7 +43,7 @@ public class VentaController {
     }
     @GetMapping("/clientes")
     public List<Cliente> getClientes() {
-        // Evita duplicados usando un Set temporal
+
         Map<Integer, Cliente> clientesUnicos = new HashMap<>();
         for (Venta v : ventas) {
             Cliente c = v.getCliente();
@@ -69,7 +70,7 @@ public class VentaController {
 
     @GetMapping("/productos")
     public List<Producto> getProductos() {
-        // Acumula todos los productos de todas las ventas
+
         List<Producto> productos = new ArrayList<>();
         for (Venta v : ventas) {
             productos.addAll(v.getProductos());

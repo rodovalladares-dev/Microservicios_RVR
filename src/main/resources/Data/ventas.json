@@ -1,0 +1,44 @@
+[
+  {
+    "id_venta": 1001,
+    "fecha": "2025-08-01",
+    "cliente": {
+      "id": 501,
+      "nombre": "Ana Torres",
+      "email": "ana.torres@example.com"
+    },
+    "productos": [
+      {
+        "id": 301,
+        "nombre": "Collar para perro",
+        "precio": 4500,
+        "cantidad": 2
+      },
+      {
+        "id": 302,
+        "nombre": "Alimento premium gato",
+        "precio": 8900,
+        "cantidad": 1
+      }
+    ],
+    "total": 17900
+  },
+  {
+    "id_venta": 1002,
+    "fecha": "2025-08-02",
+    "cliente": {
+      "id": 502,
+      "nombre": "Luis Rojas",
+      "email": "luis.rojas@example.com"
+    },
+    "productos": [
+      {
+        "id": 303,
+        "nombre": "Juguete para hámster",
+        "precio": 3200,
+        "cantidad": 3
+      }
+    ],
+    "total": 9600
+  }
+]

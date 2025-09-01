@@ -1,0 +1,47 @@
+[
+  {
+    "id_publicacion":1,
+    "titulo": "Cómo entrenar a tu gato para usar el arenero",
+    "contenido": "En esta guía te explicamos paso a paso cómo lograrlo...",
+    "autor": {
+      "id": 101,
+      "nombre": "María López"
+    },
+    "fecha": "2025-08-30",
+    "comentarios": [
+      {
+        "id_comentario":1001,
+        "usuario": "CarlosM",
+        "texto": "Muy útil, lo probé con mi gato y funcionó.",
+        "fecha": "2025-08-30T10:15:00",
+        "calificacion": 5
+      },
+      {
+        "id_comentario": 1002,
+        "usuario": "GataFan",
+        "texto": "Me gustaría ver más ejemplos visuales.",
+        "fecha": "2025-08-30T11:00:00",
+        "calificacion": 4
+      }
+    ]
+  },
+  {
+    "id_publicacion": 2,
+    "titulo": "Los mejores juguetes para perros hiperactivos",
+    "contenido": "Aquí te mostramos opciones seguras y resistentes...",
+    "autor": {
+      "id": 102,
+      "nombre": "Jorge Ramírez"
+    },
+    "fecha": "2025-08-29",
+    "comentarios": [
+      {
+        "id_comentario": 1003,
+        "usuario": "LunaPet",
+        "texto": "Mi perro destruyó el primero en 5 minutos",
+        "fecha": "2025-08-29T18:45:00",
+        "calificacion": 3
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-package com.example.S4_BaseDeDatos;
+package com.example.S5_BaseDeDatos;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -53,5 +53,8 @@ public class Pelicula {
     }
     public String getSinopsis(){
         return sinopsis;
+    }
+    public void SetId(int Id){
+        this.id = Id;
     }
 }

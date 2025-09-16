@@ -1,4 +1,4 @@
-package com.example.S4_BaseDeDatos;
+package com.example.S5_BaseDeDatos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +30,18 @@ public class PeliculaController {
     public Optional<Pelicula> getPeliculasById(@PathVariable Integer Id){
         return peliculaService.getPeliculasById(Id);
     }
+    @PostMapping
+    public Pelicula createPelicula(@RequestBody Pelicula pelicula){
+        return peliculaService.createPelicula(pelicula);
+    }
+    @PutMapping("/{id}")
+    public Pelicula updatePelicula(@PathVariable int id, @RequestBody Pelicula pelicula){
+        return peliculaService.updatePelicula(id, pelicula);
+    }
+    @DeleteMapping("/{id}")
+    public void deletePelicula(@PathVariable int id){
+        peliculaService.deletePelicula(id);
+    }
+
     
 }

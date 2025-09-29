@@ -19,6 +19,10 @@ public class Pelicula {
 
     }
 
+    public Pelicula() {
+        //TODO Auto-generated constructor stub
+    }
+
     public int getId(){
         return id;
     }
@@ -36,5 +40,55 @@ public class Pelicula {
     }
     public String getSinopsis(){
         return sinopsis;
+    }
+
+    public void setId(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setId'");
+    }
+
+    public void setTitulo(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setTitulo'");
+    }
+
+    public void setGenero(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setGenero'");
+    }
+
+    public Object getNombre() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getNombre'");
+    }
+
+    public void SetId(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SetId'");
+    }
+
+    public void SetTitulo(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SetTitulo'");
+    }
+
+    public void SetDirector(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SetDirector'");
+    }
+
+    public void SetAno(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SetAno'");
+    }
+
+    public void SetGenero(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SetGenero'");
+    }
+
+    public void SetSinopsis(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'SetSinopsis'");
     }
 }

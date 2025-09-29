@@ -39,5 +39,17 @@ public class PeliculaController {
         }
         return null;
     }
+
+
+    public Pelicula createPelicula(Pelicula pelicula) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'createPelicula'");
+    }
+
+
+    public List<Pelicula> getAllPeliculas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAllPeliculas'");
+    }
     
 }

@@ -1,0 +1,5 @@
+package com.example.S8_docker;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface PeliculaRepository extends JpaRepository<Pelicula, Integer>{
+    
+}
